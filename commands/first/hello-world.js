@@ -11,6 +11,6 @@ module.exports = class HelloWorldCommand extends Command {
 	}
 
 	run(message) {
-		return message.say('Hello World!');
+		return message.say('Hello World! My name is bot');
 	}
 };
